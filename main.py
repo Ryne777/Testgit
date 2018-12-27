@@ -19,7 +19,7 @@ class MainWindow(QMainWindow):
         central_widget.setLayout(grid_layout)  # Устанавливаем данное размещение в центральный виджет
 
         title = QLabel("Hello World on the PyQt5", self)  # Создаём лейбл
-        title.setAlignment(QtCore.Qt.AlignHCenter)  # Устанавливаем позиционирование текста
+        title.setAlignment(QtCore.Qt.AlignLeft)  # Устанавливаем позиционирование текста
         grid_layout.addWidget(title, 0, 0)  # и добавляем его в размещение
 
         exit_action = QAction("&Exit", self)  # Создаём Action с помощью которого будем выходить из приложения
